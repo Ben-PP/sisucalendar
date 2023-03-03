@@ -90,5 +90,4 @@ def main(argv: list[str]):
         raise_error(Errors.COULD_NOT_WRITE_OUTPUT)
 
 if (__name__ == "__main__"):
-    #string_test()
     main(sys.argv[1:])
